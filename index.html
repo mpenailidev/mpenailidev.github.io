@@ -1,1 +1,192 @@
-Hello World
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AppMakers - Desarrollo de Apps Móviles</title>
+  <style>
+    /* Estilos generales */
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #333;
+      background-color: #f9f9f9;
+    }
+
+    h1, h2, h3 {
+      font-weight: bold;
+    }
+
+    a {
+      text-decoration: none;
+      color: #007BFF;
+    }
+
+    /* Hero Section */
+    .hero {
+      background: url('programmer-background.jpg') no-repeat center center/cover;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: white;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+    }
+
+    .hero button {
+      padding: 15px 30px;
+      font-size: 1.2rem;
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .hero button:hover {
+      background-color: #0056b3;
+    }
+
+    /* Secciones */
+    .section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .section h2 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+
+    .section p {
+      font-size: 1.2rem;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    /* Galería de Apps */
+    .app-gallery {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin-top: 40px;
+    }
+
+    .app-gallery img {
+      width: 200px;
+      margin: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease;
+    }
+
+    .app-gallery img:hover {
+      transform: scale(1.1);
+    }
+
+    /* Testimonios */
+    .testimonials {
+      background-color: #f1f1f1;
+      padding: 60px 20px;
+    }
+
+    .testimonial-card {
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      max-width: 300px;
+      margin: 20px auto;
+    }
+
+    .testimonial-card img {
+      width: 80px;
+      border-radius: 50%;
+      margin-bottom: 10px;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #333;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    footer a {
+      color: #007BFF;
+    }
+  </style>
+</head>
+<body>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div>
+      <h1>Desarrollamos Apps que Simplifican tu Vida</h1>
+      <button>Explora Nuestras Apps</button>
+    </div>
+  </section>
+
+  <!-- Nuestras Apps -->
+  <section class="section">
+    <h2>Nuestras Apps</h2>
+    <p>Descubre las aplicaciones que hemos creado para hacer tu día a día más fácil.</p>
+    <div class="app-gallery">
+      <img src="app1.jpg" alt="App 1">
+      <img src="app2.jpg" alt="App 2">
+      <img src="app3.jpg" alt="App 3">
+    </div>
+  </section>
+
+  <!-- Por Qué Elegirnos -->
+  <section class="section">
+    <h2>Por Qué Elegirnos</h2>
+    <p>Nos enfocamos en crear experiencias únicas para nuestros usuarios.</p>
+    <div class="app-gallery">
+      <img src="iphone.jpg" alt="iPhone">
+      <img src="android.jpg" alt="Android">
+      <img src="mac.jpg" alt="Mac">
+    </div>
+  </section>
+
+  <!-- Testimonios -->
+  <section class="testimonials">
+    <h2>Lo que Dicen Nuestros Usuarios</h2>
+    <div class="testimonial-card">
+      <img src="user1.jpg" alt="Usuario 1">
+      <p>"¡Increíble! Esta app ha cambiado mi vida."</p>
+      <h3>- María Pérez</h3>
+    </div>
+    <div class="testimonial-card">
+      <img src="user2.jpg" alt="Usuario 2">
+      <p>"Muy intuitiva y fácil de usar. ¡La recomiendo!"</p>
+      <h3>- Juan Gómez</h3>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section class="section">
+    <h2>Contacto</h2>
+    <p>¿Tienes alguna pregunta? ¡Escríbenos!</p>
+    <form>
+      <input type="text" placeholder="Nombre" required>
+      <input type="email" placeholder="Correo" required>
+      <textarea placeholder="Mensaje" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2023 AppMakers. Todos los derechos reservados.</p>
+    <a href="#">Política de Privacidad</a> | <a href="#">Términos y Condiciones</a>
+  </footer>
+</body>
+</html>
